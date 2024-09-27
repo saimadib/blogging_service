@@ -64,7 +64,6 @@ After deployment, you can interact with the API using the following endpoints. T
 
 To submit a new blog post, use the following command:
 
-    ```bash
     curl -X POST https://lysxoh2iwl.execute-api.ap-south-1.amazonaws.com/prod/blogs \
     -H "Content-Type: application/json" \
     -d '{"title": "My Blog Post", "text": "This is the content of my blog post.", "userId": "789456"}'
@@ -73,5 +72,4 @@ To submit a new blog post, use the following command:
 
 To search for blogs, use the following command:
 
-    ```bash
     curl -X GET "https://lysxoh2iwl.execute-api.ap-south-1.amazonaws.com/prod/blogs/search?query=<YOUR_QUERY>"
